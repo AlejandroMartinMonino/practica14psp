@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <title>Practica 14</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="header" id="inicio">
+            <img src="img/menu.png" alt="" class="hamburguer">
+            <nav class="menu-nav">
+                <a href="#inicio">Inicio</a>
+                <a href="#hdes">Herramientas de desarrollo</a>
+                <a href="#javascript">JavaScript</a>
+                <a href="#react">React JS</a>
+                <a href="#express">Express JS</a>
+                <a href="#formulario">Formulario</a>
+            </nav>
+            <div class="contenedorhead">
+                <h1 class="titulo">Inicio</h1>
+                <p class="copy">Diferentes herramientas para el desarrollo Web</p>
+            </div>
+        </header>
+        
+        <main>
+            <section class="contenedor" id="hdes">
+                <h2 class="subtitulo">Herramientas de desarrollo</h2>
+                <p class="texto">Todos los navegadores web modernos incluyen un potente conjunto de herramientas para desarrolladores. Estas herramientas hacen una variedad de cosas, desde inspeccionar HTML, CSS y JavaScript actualmente cargados, hasta mostrar qué activos ha solicitado la página y cuánto tiempo tardaron en cargarse.</p>
+                <p class="texto">Aquí veremos las de Google Chrome:</p>
+                <div class="contenedor-hdes">
+                    <img src="img/herramientas.png" alt="">
+                    <div class="checklist-hdes">
+                        <div class="hdes">
+                            <h3 class="n-hdes"><span class="number">1</span>¿Cómo abrirlas?</h3>
+                            <p>Más herramientas ➤ Herramientas del desarrollador</p>
+                            <p>Click derecho ➤ Inspeccionar</p>
+                        </div>
+                        <div class="hdes">
+                            <h3 class="n-hdes"><span class="number">2</span>Visualización de elementos</h3>
+                            <p>Es la primera pestaña que se abrirá y te permite ver cómo está estructurado el archivo HTML.</p>
+                            <img src="img/herramientas1.png" alt="" class="img-herramientas">
+                        </div>
+                        <div class="hdes">
+                            <h3 class="n-hdes"><span class="number">3</span>Visualización de estilos</h3>
+                            <p>Justo abajo se encuentra la pestaña que permite visualizar el archivo de estilos de la página</p>
+                            <img src="img/herramientas2.png" alt="" class="img-herramientas">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="javascript" id="javascript">
+                <div class="contenedor">
+                    <h2 class="subtitulo">JavaScript</h2>
+                    <div class="contenedor-galeria">
+                        <img src="img/javascript.png" alt="" class="img-galeria">
+                    </div>
+                    <p class="texto">JavaScript (abreviado comúnmente JS) es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos,​ basado en prototipos, imperativo, débilmente tipado y dinámico.</p>
+                    <p class="texto">Se utiliza principalmente del lado del cliente, implementado como parte de un navegador web permitiendo mejoras en la interfaz de usuario y páginas web dinámicas​ y JavaScript del lado del servidor (Server-side JavaScript o SSJS). Su uso en aplicaciones externas a la web, por ejemplo en documentos PDF, aplicaciones de escritorio (mayoritariamente widgets) es también significativo.</p>
+                    <p class="texto">Desde 2012, todos los navegadores modernos soportan completamente ECMAScript 5.1, una versión de JavaScript. Los navegadores más antiguos soportan por lo menos ECMAScript 3. La sexta edición se liberó en julio de 2015.</p>
+                </div>
+            </section>
+            <section class="contenedor" id="react">
+                <h2 class="subtitulo">React JS</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/react.png" alt="" class="img-galeria">
+                </div>
+                <p class="texto">React (también llamada React.js o ReactJS) es una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página. Es mantenido por Facebook y la comunidad de software libre. En el proyecto hay más de mil desarrolladores libres.</p>
+                <p class="texto">React intenta ayudar a los desarrolladores a construir aplicaciones que usan datos que cambian todo el tiempo. Su objetivo es ser sencillo, declarativo y fácil de combinar. React sólo maneja la interfaz de usuario en una aplicación; React es la Vista en un contexto en el que se use el patrón MVC (Modelo-Vista-Controlador) o MVVM (Modelo-vista-modelo de vista). También puede ser utilizado con las extensiones de React-based que se encargan de las partes no-UI (que no forman parte de la interfaz de usuario) de una aplicación web.</p>
+
+            </section>
+
+            <section class="contenedor" id="express">
+                <h2 class="subtitulo">Express JS</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/express.png" alt="" class="img-galeria">
+                </div>
+                <p class="texto">Express.js, o simplemente Express, es un marco de aplicación web back-end para crear API RESTful con Node.js, lanzado como software gratuito y de código abierto bajo la licencia MIT. Está diseñado para crear aplicaciones web y API. Se le ha llamado el marco de servidor estándar de facto para Node.js.</p>
+                <p class="texto">El autor original, TJ Holowaychuk, lo describió como un servidor inspirado en Sinatra, lo que significa que es relativamente mínimo con muchas funciones disponibles como complementos. Express es el componente back-end de pilas de desarrollo populares como MEAN, MERN o MEVN, junto con el software de base de datos MongoDB y un marco o biblioteca de front-end JavaScript.</p>
+            </section>
+
+            <section class="formcontenedor" id="formulario">
+                <form action="" id="form">
+                    <div class="">
+                        <h1 class="tituloform">Registro</h1>
+                        <div class="grupo">
+                            <input type="text" name="name" id="name" required><span class="barra"></span>
+                            <label for="">Nombre</label>
+                        </div>
+                        <div class="grupo">
+                            <input type="email" name="email" id="email" required><span class="barra"></span>
+                            <label for="">Email</label>
+                        </div>
+                        <div class="grupo">
+                            <input type="password" name="pass" id="pass" required><span class="barra"></span>
+                            <label for="">Contraseña</label>
+                        </div>
+
+                        <button type="submit">Registrarte</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        
+        <footer id="datos">
+            <div class="datos-content">
+                <div class="contact-us">
+                    <h2 class="brand">Alejandro Martín</h2>
+                    <p class="texto-footer">Creador del sitio Web</p>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="js/menu.js"></script>
+        <script src="js/form.js"></script>
+    </body>
+</html>
